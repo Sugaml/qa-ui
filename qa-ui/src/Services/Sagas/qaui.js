@@ -1,4 +1,4 @@
-import { put, call, takeLatest, select } from 'redux-saga/effects';
+import { put, call, takeLatest } from 'redux-saga/effects';
 import { LOGIN_DATA, LOGIN_DATA_SUCCESS } from '../Constants/account';
 import { postRequest } from '../api/login';
 

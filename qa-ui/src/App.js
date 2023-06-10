@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Fragment } from 'react';
 import { Provider } from 'react-redux';
 import MainRouter from './Routes/MainRoutes';
 import configureStore from './store';
